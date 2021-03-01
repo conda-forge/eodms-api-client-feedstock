@@ -1,5 +1,5 @@
 {% set name = "eodms-api-client" %}
-{% set version = "0.1.6" %}
+{% set version = "0.1.7" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/m9brady/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: c9e1fa0dd60a358d8077d3df1775ed672fdecc8534067fd0dcac44c8ba8b0026
+  sha256: 5f263f03d39e7ed886aae3ab8e0b51bf1f94e2a8806b21de7af9c2a7a1998d79
 
 build:
   number: 0
