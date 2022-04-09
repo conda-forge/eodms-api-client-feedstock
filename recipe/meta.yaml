@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/m9brady/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed
+  sha256: 85c15d736279cd0ecbe1d293c3cb75c3d687ce7ce79cf7c9443200348eb316ab
 
 build:
   number: 0
