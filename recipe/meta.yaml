@@ -29,6 +29,7 @@ requirements:
     - pandas >=1.0.0
     - geopandas >=0.8
     - pyproj
+    - tiledb <=2.11
 
 test:
   imports:
