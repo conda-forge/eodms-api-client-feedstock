@@ -1,11 +1,11 @@
-About eodms-api-client
-======================
+About eodms-api-client-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/eodms-api-client-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/m9brady/eodms-api-client
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/eodms-api-client-feedstock/blob/main/LICENSE.txt)
 
 Summary: REST API client package for EODMS
 
