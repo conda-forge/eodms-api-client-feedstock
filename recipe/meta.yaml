@@ -1,5 +1,5 @@
 {% set name = "eodms-api-client" %}
-{% set version = "1.2.11" %}
+{% set version = "1.2.12" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/m9brady/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 0a5549a8f22ed1ca914e9e78acb8884e5e2305f827c0323d5cc1f2533d9c64c4
+  sha256: 92700dcd0a6d7eb26aad7bd22b6c53160f0dd7568eb50d7b6f5bd23fa4d9bc98
 
 build:
   number: 0
@@ -29,7 +29,7 @@ requirements:
     - pandas >=1.0.0
     - geopandas >=0.8
     - pyproj
-    - tiledb <=2.11
+    - fiona
 
 test:
   imports:
