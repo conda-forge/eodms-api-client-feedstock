@@ -10,7 +10,7 @@ source:
   sha256: 92700dcd0a6d7eb26aad7bd22b6c53160f0dd7568eb50d7b6f5bd23fa4d9bc98
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
   entry_points:
@@ -19,9 +19,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - setuptools
+    - python {{ python_min }}
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - requests
     - click
     - python-dateutil
@@ -32,6 +33,8 @@ requirements:
     - fiona
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - eodms_api_client
   commands:
